@@ -10,6 +10,7 @@
         android:id="@+id/pvs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D2CD5"
         android:text="Previous"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.062"
@@ -22,6 +23,7 @@
         android:id="@+id/nxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D2CD5"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.938"
@@ -34,6 +36,7 @@
         android:id="@+id/menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D2CD5"
         android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -46,15 +49,22 @@
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Aplicación"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="53dp" />
+        android:text="Project Setup"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="372dp"
         android:layout_height="509dp"
-        android:text="sdafasdfasdfasdfasdfasdfasdf"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="84dp" />
+        android:text="Supongo que tiene Node instalado, si no, consulte el Guía de instalación de NodeJS.  Vamos a utilizar los paquetes node-fetch y cheerio para web scraping en JavaScript. Configuremos el proyecto con npm para que funcione con un paquete de terceros.  Veamos rápidamente los pasos para completar nuestra configuración.  Crea un directorio llamado web_scraping y navega hasta él. Ejecuta el comando npm init para inicializar el proyecto. Responda todas las preguntas según su preferencia. Ahora, instale los paquetes usando el comando npm install node-fetch cheerio Veamos los destellos de los paquetes instalados.  búsqueda de nodo El paquete node-fetch trae el window.fetch al entorno de node js. Ayuda a realizar las solicitudes HTTP y obtener los datos sin procesar.  ¡hasta la vista El paquete ¡hasta la vista se utiliza para analizar y extraer la información necesaria de los datos sin procesar.  Dos paquetes node-fetch y cheerio son lo suficientemente buenos para web scraping en JavaScript. No veremos todos los métodos que proporcionan los paquetes. Veremos el flujo de web scraping y los métodos más útiles en ese flujo.  Aprenderá a raspar web haciéndolo. Entonces, vayamos al trabajo.  Scraping Cricket World Cup List Aquí, en esta sección, haremos un raspado web real.  ¿Qué estamos extrayendo?  Por el título de la sección, creo que lo adivinarías fácilmente. Sí, lo que sea que estés pensando es correcto. Extraigamos a todos los ganadores y subcampeones de la copa mundial de cricket hasta ahora.  Crea un archivo llamado extract_cricket_world_cups_list.js en el proyecto. Usaremos el Wikipedia Copa del mundo de críquet página para obtener la información deseada. Primero, obtenga los datos sin procesar usando el node-fetch paquete. El siguiente código obtiene los datos sin procesar de la página de Wikipedia anterior."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

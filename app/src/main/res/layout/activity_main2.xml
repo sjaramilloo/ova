@@ -10,7 +10,9 @@
         android:id="@+id/pvs"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D2CD5"
         android:text="Previous"
+        app:iconTint="#1C37D1"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -22,6 +24,7 @@
         android:id="@+id/nxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D2CD5"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.938"
@@ -34,6 +37,7 @@
         android:id="@+id/menu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#0D2CD5"
         android:text="+"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -47,14 +51,24 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Definición"
-        tools:layout_editor_absoluteX="176dp"
-        tools:layout_editor_absoluteY="53dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.063" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="372dp"
-        android:layout_height="509dp"
-        android:text="sdafasdfasdfasdfasdfasdfasdf"
-        tools:layout_editor_absoluteX="19dp"
-        tools:layout_editor_absoluteY="84dp" />
+        android:layout_width="366dp"
+        android:layout_height="285dp"
+        android:autoText="false"
+        android:text="El web scraping es una tarea automatizada para extraer datos de sitios web.  Hay muchas aplicaciones de web scraping. Extraer los precios de los productos y compararlos con diferentes Plataformas de comercio electrónico. Obtener una cotización diaria de la web. Construyendo su propio motor de búsqueda como Google, Yahoo, etc., la lista continúa.  Puede hacer más de lo que piensa con el web scraping. Una vez que sepa cómo extraer los datos de los sitios web, puede hacer lo que quiera con los datos.  El programa que extrae los datos de los sitios web se denomina raspador web. Aprenderá a escribir web scrapers en JavaScript.  El raspado web consta principalmente de dos partes.  Obtener los datos mediante bibliotecas de solicitudes y un navegador sin cabeza. Analizar los datos para extraer la información exacta que queremos de los datos. Sin más preámbulos, comencemos."
+        app:drawableTint="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.215" />
 </androidx.constraintlayout.widget.ConstraintLayout>
